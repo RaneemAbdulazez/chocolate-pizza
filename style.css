@@ -1,8 +1,15 @@
+/* *{
+    border: 1px solid red !important;
+} */
+
+
 header {
     background-color: rgb(176, 132, 218);
-width: 1200px; height: 200px;
+width: 1200px;
+ height: 200px;
 position: relative ;
 padding: 10px;
+margin: auto;
 }
 #delicious{
     font-family: 'Yellowtail', cursive;
@@ -16,7 +23,7 @@ padding: 10px;
 
 #pizza {
     height: 70px;
-   background-color: chartreuse;
+  
 }
 
 #bestfood {
@@ -24,6 +31,7 @@ padding: 10px;
     top: 33px;
     height: 5px;
     font-family: 'Antic Slab', serif;
+    font-weight: lighter;
     font-size:15PX ;
     left: 50PX;
     margin: 10px;
@@ -36,9 +44,41 @@ nav, ul , li{
     display: inline-block;
     position: relative;
     left: 300px;
-    bottom: 30px;
+    bottom: 35px;
+    
+    
     
 
 }
 
 
+.lasicons{
+    position: relative;
+    left: 10px;
+    padding: 0px;
+
+    
+}
+
+main{
+    margin: auto;
+    width: 1200px;
+    padding: 10px;
+}
+
+
+h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    position: relative;
+
+}
+#posted{
+    font-family: 'Antic Slab', serif;
+    font-weight:lighter;
+    margin: 0;
+    position: relative;
+    bottom: 40px;
+    font-size:15PX ;
+
+}
