@@ -1,0 +1,44 @@
+header {
+    background-color: rgb(176, 132, 218);
+width: 1200px; height: 200px;
+position: relative ;
+padding: 10px;
+}
+#delicious{
+    font-family: 'Yellowtail', cursive;
+    position: absolute;
+    top: 0px;
+    left:50px;
+    margin: 10px;
+    height: 15px;
+
+}
+
+#pizza {
+    height: 70px;
+   background-color: chartreuse;
+}
+
+#bestfood {
+    position: absolute;
+    top: 33px;
+    height: 5px;
+    font-family: 'Antic Slab', serif;
+    font-size:15PX ;
+    left: 50PX;
+    margin: 10px;
+}
+#logo {
+    height: 50px;
+}
+
+nav, ul , li{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    bottom: 30px;
+    
+
+}
+
+
