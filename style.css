@@ -1,3 +1,8 @@
+
+
+
+
+
 header {
     background-color: rgb(176, 132, 218);
 width: 1200px; height: 200px;
@@ -75,8 +80,8 @@ h1{
 }
 
 #phase2{
-    background-color: rgb(176, 132, 218);
-    width: 1200px; height: 200px;
+    /* background-color: rgb(176, 132, 218); */
+    /* width: 1200px; height: 200px; */
     position: relative ;
     padding: 10px;
     margin: auto;
@@ -137,17 +142,32 @@ button{
 
 }
 
-/* 
+
 footer{
-    background-color: rgb(41, 16, 65);
+    
+    
     width: 1200px; height: 200px;
     position: relative ;
-    padding: 10px;
-    margin: 500px 20px 0px 20px;
-} */
+    margin: auto;
+    
+}
 
-
-
+#logofooter{
+    position: relative;
+   /* display: block; */
+   left: 550px;
+   bottom:60px;
+   width: 80px;
+   border: rgb(20, 20, 20);
+   border-width: 5px;
+    
+}
+#lastthing{
+   
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
 
 
 
