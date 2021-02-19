@@ -3,6 +3,8 @@
 <head >
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     
     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -27,17 +29,23 @@
               <li><img src="img\insta-icon.png" alt="instagram"></li>
               <li><img src="img\flic-icon.png" alt="flic"></li>
               <li><img src="img\pint-icon.png" alt="pentreist"></li>
-              <li><img src="img\rss-icon.png" alt="rss"></li>
-              <li><img src="img\mail-icon.png" alt="mail"></li>
+
+              
+              <li><img class="lasicons" src="img\rss-icon.png" alt="rss"></li>
+              <li><img class="lasicons" src="img\mail-icon.png" alt="mail"></li>
+            
           </ul>
       </nav>
 
   </header>
   <main>
       <h1>Cholclate Pizza</h1>
-      <h3>POSTED ON 15 DEC 2013/DESSERETS </h3>
-      <img src="img\choco-pizza.png" alt="CholclatePizza">
-      <img src="img\print-icon.png" alt="print">
+      <h3 id="posted">POSTED ON 15 DEC 2013/DESSERETS </h3>
+
+      <div id="phase2">
+        <img id="print" src="img\print-icon.png" alt="print">
+      <img id="picture" src="img\choco-pizza.png" alt="CholclatePizza">
+      
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
            Aliquam illo mollitia a, tempora eligendi saepe expedita
             voluptatibus, blanditiis rem quis voluptatum ducimus soluta
@@ -50,21 +58,25 @@
              Accusamus nostrum libero in quae earum ratione reprehenderit at,
               maxime error eius consequatur qui quaerat assumenda! Saepe ullam 
               iure aliquid at dolor.</p>
-              <img src="img\list-bg.png" alt="ingredients">
+              <img id="ingredients" src="img\list-bg.png" alt="ingredients">
 
               <hr style="width:50%;text-align:left;margin-left:0">
               <img src="img\van-pic.png" alt="van">
-              <h3>Vanessa Stevenson </h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                   est eum officiis sint vero veritatis. Sint, quaerat fugit.</p>
-                   <button>Share Recipe</button>
+              <h3 id="vanessa">Vanessa Stevenson </h3>
+              <p id="state1" >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   est t vero veritatis. Sint, Lorem ipsum dolor sit amet consectetur adipisicing elit.quaerat fugit.</p>
+                   <button>SHARE RECIPE</button>
+                
+        </div>
 
   </main>
   <footer>
-      <img src="img\small-logo.png" alt="logo">
-      <hr style="width:50%;text-align:left;margin-left:0">
-      
-      DELICIOUS &copy;2013 All Right Reserved 
-      <br> proudly published by ghost
-  </footer>
+    <hr style="width:100%;text-align:left;margin-left:0">
+    <img id="logofooter" src="img\small-logo.png" alt="logo">
+    
+    
+   <p id="lastthing">DELICIOUS &copy;2013 All Right Reserved 
+    <br> proudly published by ghost</p> 
+</footer>
+  
 </html>
