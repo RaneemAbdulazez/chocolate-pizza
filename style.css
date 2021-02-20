@@ -2,9 +2,8 @@
 
 
 
-
 header {
-    background-color: rgb(176, 132, 218);
+    
 width: 1200px; height: 200px;
 position: relative ;
 padding: 10px;
@@ -22,7 +21,7 @@ margin: auto;
 
 #pizza {
     height: 70px;
-   background-color: chartreuse;
+   
   
 }
 #bestfood {
@@ -55,6 +54,12 @@ nav, ul , li{
 
     
 }
+#line{
+    
+    width: 1200px;
+    height: 20px;
+    /* border-image-repeat:repeat; */
+}  
 
 main{
     margin: auto;
@@ -91,7 +96,7 @@ h1{
     width: 1200px;
 }
 #print{
-    background-color: brown;
+    
     width: 20px;
     position: relative;
   left: 1150px;
@@ -108,7 +113,16 @@ p{
     
     border-width: thin ;
    
-    box-shadow: rgb(99, 98, 98) 5px ;
+    box-shadow: rgb(201, 189, 189) 5px ;
+    
+}
+
+#line2{
+     width: 1200px;
+    height: 20px;
+    position: relative;
+    padding:50px;
+    
     
 }
 #vanessa{
